@@ -1,5 +1,5 @@
 def main():
-    book_path = "/Users/leestotle/workspace/github.com/tifsmith24/bookbot/books/frankenstein.txt"
+    book_path = "books/frankenstein.txt"
     text = get_book_text(book_path)
     num_words = get_num_words(text)
     chars_dict = get_chars_dict(text)
